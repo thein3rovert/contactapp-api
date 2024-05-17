@@ -13,6 +13,13 @@ import org.hibernate.annotations.UuidGenerator;
 
 import static com.fasterxml.jackson.annotation.JsonInclude.Include.NON_DEFAULT;
 
+/**
+ * @author Samad Olaibi (Thein3rovert)
+ * @version 1.0
+ * @license thein3rovert,  (<a href="https://github.com/thein3rovert">thein3rovert</a>)
+ * @email danielolaibi@gmail.com
+ */
+
 //Lets pass in some annotation for jpa
 @Entity
 @Getter

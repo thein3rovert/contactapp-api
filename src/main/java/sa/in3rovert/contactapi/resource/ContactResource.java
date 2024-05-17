@@ -20,11 +20,16 @@ import java.net.URI;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-
 import static org.springframework.http.MediaType.IMAGE_JPEG_VALUE;
 import static org.springframework.http.MediaType.IMAGE_PNG_VALUE;
 import static sa.in3rovert.contactapi.constant.Constant.PHOTO_DIRECTORY;
 
+/**
+ * @author Samad Olaibi (Thein3rovert)
+ * @version 1.0
+ * @license thein3rovert,  (<a href="https://github.com/thein3rovert">thein3rovert</a>)
+ * @email danielolaibi@gmail.com
+ */
 
 @RestController
 @RequestMapping("/contacts")

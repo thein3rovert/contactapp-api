@@ -21,6 +21,12 @@ import java.util.function.BiFunction;
 
 import static java.nio.file.StandardCopyOption.REPLACE_EXISTING;
 import static sa.in3rovert.contactapi.constant.Constant.PHOTO_DIRECTORY;
+/**
+ * @author Samad Olaibi (Thein3rovert)
+ * @version 1.0
+ * @license thein3rovert,  (<a href="https://github.com/thein3rovert">thein3rovert</a>)
+ * @email danielolaibi@gmail.com
+ */
 
 @Service
 @Transactional (rollbackOn = Exception.class)
